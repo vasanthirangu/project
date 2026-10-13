@@ -1,0 +1,52 @@
+================================ GIT & GITHUB =========================================
+GIT: Global Information Tracker
+=>it is a software
+=> version control system: it can control which version we can use
+=> git is maintained by Linux 
+=> it is used to maintain data
+=> It is command line tool
+
+
+GITHUB:
+=> It is a cloud platform used to store files
+=> Maintained by Microsoft
+=> it is open source
+=> git bucket and GitLab is not opensource, GITlab is  used for large data  git bucket and security
+=> collaboration
+
+
+
+======= PUSH FILES FROM LOCAL TO REMOTE =============
+4 STAGES
+1) Working/directory:
+=>location of the required file
+
+2) adding/staging area:
+=> adding the file
+=> the status changes from untracking to tracking
+=> from this stage we can track the changes
+
+3) committing area:
+=>saving the file
+
+4) remote directory:
+=> push to github
+
+=>Commands used in these stages
+git init  : new empty repository will be created in the local
+
+git add ./file or /folder: if we use . all files/folders will be added
+
+git commit -m "msg":the save the added file/folder
+
+git config --global user.name "username"
+
+git config --global user. email "useremail"
+
+git commit -m "msg"  , msg is the repo name, we can give anything
+
+git remote add origin http url: in GitHub select the particular repo, where we want to add,http url is repo url
+
+git branch -m main: local folder is changed to main
+
+git push origin main
